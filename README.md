@@ -6,19 +6,25 @@ Welcome to my Machine Learning learning journey! This repository contains hands-
 
 ## 📚 Projects
 
-### 1. 🪨 [Rock vs Mine Prediction](./Rock%20Vs%20Mine%20Prediction/)
+### 1. 🩨 [Rock vs Mine Prediction](./Rock%20Vs%20Mine%20Prediction/)
 **Type**: Binary Classification  
 **Algorithm**: Logistic Regression  
-**Dataset**: SONAR Signals (208 samples, 60 features)
+**Dataset**: SONAR Signals (208 samples, 60 frequency-based features)
 
-**Description**: Predict whether a SONAR signal represents a rock or a mine (metal cylinder) using machine learning classification.
+**Description**: Predict whether a SONAR signal represents a rock or a mine (metal cylinder) using machine learning classification. The project analyzes frequency patterns in SONAR data to distinguish between two different underwater objects.
+
+**Model Performance**:
+- Training Accuracy: **83.42%**
+- Testing Accuracy: **76.19%**
+- Minimal overfitting with ~7% train-test gap
 
 **Key Concepts Learned**:
-- Binary classification fundamentals
-- Working with SONAR signal processing data
-- Feature engineering with high-dimensional data
-- Model evaluation metrics (accuracy, confusion matrix)
-- Data preprocessing for signal-based classification
+- Binary classification with Logistic Regression
+- SONAR signal processing and frequency analysis
+- High-dimensional data handling (60 features for 208 samples)
+- Train-test split with stratified sampling
+- Model evaluation and overfitting detection
+- Real-world application in underwater object detection
 
 **[View Project](./Rock%20Vs%20Mine%20Prediction/) | [Open in Colab](https://colab.research.google.com/drive/1qROcP_vZHOwLl1QMRz22AAHLikPtg9CM?usp=sharing)**
 
@@ -26,18 +32,24 @@ Welcome to my Machine Learning learning journey! This repository contains hands-
 
 ### 2. 💉 [Diabetes Prediction](./Diabetes%20Prediction/)
 **Type**: Binary Classification  
-**Algorithm**: Machine Learning Classification  
-**Dataset**: Medical diagnostic measurements
+**Algorithm**: Support Vector Machine (SVM)  
+**Dataset**: PIMA Indians Diabetes (768 patients, 8 medical features)
 
-**Description**: Predict whether a person has diabetes based on various health indicators like glucose levels, blood pressure, BMI, and other medical measurements.
+**Description**: Predict whether a person has diabetes based on various health indicators like glucose levels, blood pressure, BMI, and other medical measurements. Uses the famous PIMA Indians Diabetes dataset from the National Institute of Diabetes and Digestive and Kidney Diseases.
+
+**Model Performance**:
+- Training Accuracy: **78.66%**
+- Testing Accuracy: **77.27%**
+- Excellent generalization with only 1.4% train-test gap
 
 **Key Concepts Learned**:
-- Medical data preprocessing and handling
-- Working with healthcare datasets
+- Medical data preprocessing and StandardScaler normalization
+- Support Vector Machines (SVM) with linear kernel
+- Working with healthcare datasets and ethical considerations
 - Feature correlation analysis for health indicators
-- Handling missing values and outliers in medical data
-- Model evaluation for healthcare applications (precision, recall, ROC-AUC)
-- Understanding ethical considerations in medical ML
+- Handling class imbalance (65% non-diabetic vs 35% diabetic)
+- Clinical interpretation of ML models
+- Stratified sampling for medical data
 
 **[View Project](./Diabetes%20Prediction/) | [Open in Colab](https://colab.research.google.com/drive/1yq4BrIMRgKL-5doRALDwTe_v4q8L-9EL?usp=sharing)**
 
@@ -45,32 +57,48 @@ Welcome to my Machine Learning learning journey! This repository contains hands-
 
 ## 🎯 Overall Learning Journey
 
-Through these machine learning projects, I have gained valuable experience in:
+Through these machine learning projects, I have gained hands-on experience with real-world datasets and practical ML applications:
 
-### 🔧 Technical Skills
-- **Data Preprocessing**: Cleaning, normalization, and feature scaling
-- **Exploratory Data Analysis**: Statistical analysis and visualization
-- **Model Development**: Implementing various ML algorithms
-- **Model Evaluation**: Understanding metrics like accuracy, precision, recall, and F1-score
-- **Python Libraries**: Proficiency in Pandas, NumPy, Scikit-learn, Matplotlib, and Seaborn
+### 🔧 Technical Skills Developed
+- **Data Preprocessing**: Cleaning, normalization with StandardScaler, and feature scaling
+- **Exploratory Data Analysis**: Statistical analysis, distribution visualization, and correlation studies
+- **Algorithm Implementation**: 
+  - Logistic Regression for signal classification
+  - Support Vector Machines (SVM) for medical prediction
+- **Model Evaluation**: Training vs test accuracy, generalization assessment, overfitting detection
+- **Python Libraries**: Proficiency in NumPy, Pandas, Scikit-learn, Matplotlib, and Seaborn
 
-### 🧠 Machine Learning Concepts
-- **Supervised Learning**: Classification and regression techniques
-- **Feature Engineering**: Extracting meaningful patterns from raw data
-- **Train-Test Split**: Proper data partitioning for model validation
-- **Cross-Validation**: Ensuring model generalization
-- **Overfitting & Underfitting**: Understanding and addressing these challenges
+### 🧠 Machine Learning Concepts Mastered
+- **Supervised Learning**: Binary classification techniques
+- **Feature Engineering**: Working with high-dimensional (60 features) and medical data
+- **Train-Test Split**: Proper stratified data partitioning for model validation
+- **Model Selection**: Choosing appropriate algorithms for specific problem types
+- **Overfitting & Generalization**: 
+  - Rock vs Mine: 7% gap (acceptable for small dataset)
+  - Diabetes: 1.4% gap (excellent generalization)
+- **Standardization**: Critical preprocessing for distance-based algorithms like SVM
+- **Class Imbalance**: Handling imbalanced datasets in medical applications
 
 ### 💡 Problem-Solving Approach
-- Breaking down complex problems into manageable steps
-- Choosing appropriate algorithms for specific tasks
-- Iterative improvement through experimentation
-- Documentation and reproducibility
+- Breaking down complex problems from data loading to model deployment
+- Choosing appropriate algorithms based on data characteristics:
+  - Logistic Regression for linearly separable frequency data
+  - SVM for complex medical decision boundaries
+- Iterative improvement through experimentation and metric analysis
+- Comprehensive documentation and reproducibility practices
 
 ### 🚀 Tools & Platforms
-- **Jupyter Notebooks**: Interactive development and documentation
-- **Google Colab**: Cloud-based experimentation with GPU support
-- **Git & GitHub**: Version control and project sharing
+- **Jupyter Notebooks**: Interactive development and analysis
+- **Google Colab**: Cloud-based experimentation with easy sharing
+- **Git & GitHub**: Version control and project portfolio management
+- **Scikit-learn**: Industry-standard ML library
+
+### 📈 Practical Achievements
+- Successfully classified SONAR signals with **76.19% test accuracy**
+- Predicted diabetes with **77.27% test accuracy** on medical data
+- Worked with diverse datasets: 208 samples (signal processing) to 768 patients (healthcare)
+- Handled feature spaces from 8 to 60 dimensions
+- Demonstrated understanding of model generalization and validation
 
 ## 📈 Future Goals
 - Explore deep learning with TensorFlow/PyTorch
