@@ -24,6 +24,25 @@ Welcome to my Machine Learning learning journey! This repository contains hands-
 
 ---
 
+### 2. 💉 [Diabetes Prediction](./Diabetes%20Prediction/)
+**Type**: Binary Classification  
+**Algorithm**: Machine Learning Classification  
+**Dataset**: Medical diagnostic measurements
+
+**Description**: Predict whether a person has diabetes based on various health indicators like glucose levels, blood pressure, BMI, and other medical measurements.
+
+**Key Concepts Learned**:
+- Medical data preprocessing and handling
+- Working with healthcare datasets
+- Feature correlation analysis for health indicators
+- Handling missing values and outliers in medical data
+- Model evaluation for healthcare applications (precision, recall, ROC-AUC)
+- Understanding ethical considerations in medical ML
+
+**[View Project](./Diabetes%20Prediction/) | [Open in Colab](https://colab.research.google.com/drive/1yq4BrIMRgKL-5doRALDwTe_v4q8L-9EL?usp=sharing)**
+
+---
+
 ## 🎯 Overall Learning Journey
 
 Through these machine learning projects, I have gained valuable experience in:
