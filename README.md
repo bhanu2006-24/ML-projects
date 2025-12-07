@@ -1,20 +1,24 @@
 # 🤖 Machine Learning Projects Portfolio
 
-Welcome to my Machine Learning projects repository! This collection showcases my journey in learning and applying machine learning concepts through hands-on projects.
+Welcome to my Machine Learning learning journey! This repository contains hands-on ML projects covering different aspects of machine learning, from fundamentals to advanced techniques.
+
+---
 
 ## 📚 Projects
 
 ### 1. 🪨 [Rock vs Mine Prediction](./Rock%20Vs%20Mine%20Prediction/)
-**Description**: Binary classification model using SONAR data to distinguish between rocks and metal cylinders (mines).
+**Type**: Binary Classification  
+**Algorithm**: Logistic Regression  
+**Dataset**: SONAR Signals (208 samples, 60 features)
 
-**Technologies**: Python, Scikit-learn, Pandas, NumPy, Logistic Regression
+**Description**: Predict whether a SONAR signal represents a rock or a mine (metal cylinder) using machine learning classification.
 
-**Key Learnings**:
+**Key Concepts Learned**:
 - Binary classification fundamentals
 - Working with SONAR signal processing data
-- Feature engineering with 60-dimensional data
-- Model evaluation using confusion matrix and accuracy metrics
-- Understanding the importance of data preprocessing in signal-based classification
+- Feature engineering with high-dimensional data
+- Model evaluation metrics (accuracy, confusion matrix)
+- Data preprocessing for signal-based classification
 
 **[View Project](./Rock%20Vs%20Mine%20Prediction/) | [Open in Colab](https://colab.research.google.com/drive/1qROcP_vZHOwLl1QMRz22AAHLikPtg9CM?usp=sharing)**
 
