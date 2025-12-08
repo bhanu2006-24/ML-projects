@@ -80,35 +80,69 @@ Welcome to my Machine Learning learning journey! This repository contains hands-
 
 ---
 
+### 4. 📰 [Fake News Prediction](./Fake%20News%20Prediction/)
+**Type**: Binary Text Classification  
+**Algorithm**: Logistic Regression with TF-IDF  
+**Dataset**: Fake News Dataset (20,800 articles, 5 features)
+
+**Description**: Classify news articles as Real or Fake using Natural Language Processing (NLP) and machine learning. The model analyzes textual content and author information to distinguish between credible news and misinformation, utilizing TF-IDF vectorization to extract meaningful features from text data.
+
+**Model Performance**:
+- Training Accuracy: **98.64%**
+- Testing Accuracy: **97.91%**
+- Excellent generalization with only 0.73% train-test gap
+
+**Key Concepts Learned**:
+- Natural Language Processing (NLP) and text preprocessing
+- TF-IDF (Term Frequency-Inverse Document Frequency) vectorization
+- Text classification with Logistic Regression
+- Working with sparse matrices and high-dimensional text data
+- NLTK for stopword removal and Porter Stemmer for text normalization
+- Feature engineering: combining author and title information
+- Handling missing values in textual datasets
+- Real-world application in combating misinformation
+
+**[View Project](./Fake%20News%20Prediction/) | [Open in Colab](https://colab.research.google.com/drive/YOUR_COLAB_LINK_HERE)**
+
+---
+
 ## 🎯 Overall Learning Journey
 
 Through these machine learning projects, I have gained hands-on experience with real-world datasets and practical ML applications:
 
 ### 🔧 Technical Skills Developed
-- **Data Preprocessing**: Cleaning, normalization with StandardScaler, and feature scaling
+- **Data Preprocessing**: Cleaning, normalization with StandardScaler, feature scaling, and text preprocessing
 - **Exploratory Data Analysis**: Statistical analysis, distribution visualization, and correlation studies
+- **Natural Language Processing (NLP)**: 
+  - Text cleaning and normalization
+  - TF-IDF vectorization for feature extraction
+  - Stopword removal and stemming with NLTK
+  - Working with sparse matrices
 - **Algorithm Implementation**: 
-  - Logistic Regression for signal classification
+  - Logistic Regression for signal classification and text classification
   - Support Vector Machines (SVM) for medical prediction
   - XGBoost Regressor for price prediction
 - **Model Evaluation**: Training vs test accuracy, R² score, MAE, generalization assessment, overfitting detection
-- **Python Libraries**: Proficiency in NumPy, Pandas, Scikit-learn, XGBoost, Matplotlib, and Seaborn
+- **Python Libraries**: Proficiency in NumPy, Pandas, Scikit-learn, XGBoost, Matplotlib, Seaborn, and NLTK
 
 ### 🧠 Machine Learning Concepts Mastered
-- **Supervised Learning**: Binary classification and regression techniques
-- **Feature Engineering**: Working with high-dimensional (60 features), medical, and geographic data
+- **Supervised Learning**: Binary classification, text classification, and regression techniques
+- **Feature Engineering**: Working with high-dimensional (60 features), medical, geographic, and textual data
+- **Text Processing**: TF-IDF vectorization, stemming, and stopword removal for NLP tasks
 - **Train-Test Split**: Proper stratified data partitioning for model validation
 - **Model Selection**: Choosing appropriate algorithms for specific problem types
-  - Classification: Logistic Regression, SVM
+  - Classification: Logistic Regression (signals & text), SVM
   - Regression: XGBoost for continuous predictions
 - **Overfitting & Generalization**: 
   - Rock vs Mine: 7% gap (acceptable for small dataset)
   - Diabetes: 1.4% gap (excellent generalization)
   - House Price: 11% gap (good performance with complex model)
+  - Fake News: 0.73% gap (excellent generalization with text data)
 - **Standardization**: Critical preprocessing for distance-based algorithms like SVM
 - **Class Imbalance**: Handling imbalanced datasets in medical applications
 - **Regression Metrics**: R² Score (coefficient of determination), Mean Absolute Error
 - **Ensemble Methods**: Gradient boosting with XGBoost for improved predictions
+- **Sparse Matrices**: Efficient handling of high-dimensional text features
 
 ### 💡 Problem-Solving Approach
 - Breaking down complex problems from data loading to model deployment
@@ -128,10 +162,11 @@ Through these machine learning projects, I have gained hands-on experience with 
 - Successfully classified SONAR signals with **76.19% test accuracy**
 - Predicted diabetes with **77.27% test accuracy** on medical data
 - Predicted house prices with **82.87% R² score** on regression task
-- Worked with diverse datasets: 208 samples (signal processing) to 20,640 census blocks (housing)
-- Handled feature spaces from 8 to 60 dimensions
+- Classified fake news with **97.91% test accuracy** using NLP techniques
+- Worked with diverse datasets: 208 samples (signal processing) to 20,800 articles (text classification)
+- Handled feature spaces from 8 to 60 dimensions, plus high-dimensional text vectors
 - Demonstrated understanding of model generalization and validation
-- Mastered both classification and regression problems
+- Mastered classification (binary and text), regression, and NLP problems
 
 ## 📈 Future Goals
 - Explore deep learning with TensorFlow/PyTorch
@@ -156,7 +191,7 @@ python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 # Install common dependencies
-pip install numpy pandas scikit-learn matplotlib seaborn jupyter
+pip install numpy pandas scikit-learn matplotlib seaborn jupyter nltk xgboost
 ```
 
 ## 📞 Connect With Me
