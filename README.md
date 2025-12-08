@@ -102,7 +102,7 @@ Welcome to my Machine Learning learning journey! This repository contains hands-
 - Handling missing values in textual datasets
 - Real-world application in combating misinformation
 
-**[View Project](./Fake%20News%20Prediction/) | [Open in Colab](https://colab.research.google.com/drive/YOUR_COLAB_LINK_HERE)**
+**[View Project](./Fake%20News%20Prediction/) | [Open in Colab](https://colab.research.google.com/drive/1pnSk5JCm-XpaWxvGs5GQ3AD7UWytj2Hg?usp=sharing)**
 
 ---
 

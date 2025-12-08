@@ -1,6 +1,6 @@
 # 📰 Fake News Prediction
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/YOUR_COLAB_LINK_HERE)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1pnSk5JCm-XpaWxvGs5GQ3AD7UWytj2Hg?usp=sharing)
 
 ## 📌 Project Overview
 
