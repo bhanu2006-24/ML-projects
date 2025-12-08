@@ -3,8 +3,7 @@
 ## 📋 Project Overview
 This project uses Machine Learning to predict whether a person has diabetes based on various diagnostic measurements. The model is trained on medical data containing features like glucose levels, blood pressure, BMI, and other health indicators.
 
-## 🔗 Google Colab Notebook
-**[Open in Google Colab](https://colab.research.google.com/drive/1yq4BrIMRgKL-5doRALDwTe_v4q8L-9EL?usp=sharing)**
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1yq4BrIMRgKL-5doRALDwTe_v4q8L-9EL?usp=sharing)
 
 ## 📊 Dataset
 

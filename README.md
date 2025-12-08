@@ -76,7 +76,7 @@ Welcome to my Machine Learning learning journey! This repository contains hands-
 - Model generalization with 11% train-test gap
 - Ensemble learning methods and boosting algorithms
 
-**[View Project](./House%20Price%20Prediction/)**
+**[View Project](./House%20Price%20Prediction/) | [Open in Colab](https://colab.research.google.com/drive/1RsJQe7wvWQdLk-YayUNwlqFLpT47FtPx?usp=sharing)**
 
 ---
 

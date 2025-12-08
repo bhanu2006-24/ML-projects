@@ -3,8 +3,7 @@
 ## 📋 Project Overview
 This project uses Machine Learning to predict whether an object detected by SONAR is a **Rock** or a **Mine** (metal cylinder). The model is trained on SONAR data containing 60 features representing energy levels at different frequencies.
 
-## 🔗 Google Colab Notebook
-**[Open in Google Colab](https://colab.research.google.com/drive/1qROcP_vZHOwLl1QMRz22AAHLikPtg9CM?usp=sharing)**
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1qROcP_vZHOwLl1QMRz22AAHLikPtg9CM?usp=sharing)
 
 ## 📊 Dataset
 - **Source**: SONAR (Sound Navigation and Ranging) data

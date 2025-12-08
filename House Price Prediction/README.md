@@ -1,5 +1,7 @@
 # 🏠 House Price Prediction using XGBoost
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1RsJQe7wvWQdLk-YayUNwlqFLpT47FtPx?usp=sharing)
+
 ## 📋 Project Overview
 This project uses Machine Learning to predict house prices based on various features like median income, house age, average rooms, location, and other demographic factors. The model is trained on the California Housing dataset using XGBoost, a powerful gradient boosting algorithm.
 
