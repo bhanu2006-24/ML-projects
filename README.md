@@ -55,6 +55,31 @@ Welcome to my Machine Learning learning journey! This repository contains hands-
 
 ---
 
+### 3. 🏠 [House Price Prediction](./House%20Price%20Prediction/)
+**Type**: Regression  
+**Algorithm**: XGBoost Regressor  
+**Dataset**: California Housing (20,640 samples, 8 features)
+
+**Description**: Predict median house prices for California districts using demographic and geographic features. Uses the California Housing dataset from the 1990 U.S. Census, incorporating factors like median income, house age, average rooms, population, and location coordinates.
+
+**Model Performance**:
+- Training R² Score: **94.19%**
+- Test R² Score: **82.87%**
+- Mean Absolute Error (Test): **0.313** (≈$31,300)
+
+**Key Concepts Learned**:
+- Regression modeling with XGBoost gradient boosting
+- Working with geographic data (latitude/longitude)
+- R² Score and Mean Absolute Error evaluation metrics
+- Real estate pricing factors and census data analysis
+- Feature engineering with demographic variables
+- Model generalization with 11% train-test gap
+- Ensemble learning methods and boosting algorithms
+
+**[View Project](./House%20Price%20Prediction/)**
+
+---
+
 ## 🎯 Overall Learning Journey
 
 Through these machine learning projects, I have gained hands-on experience with real-world datasets and practical ML applications:
@@ -65,19 +90,25 @@ Through these machine learning projects, I have gained hands-on experience with 
 - **Algorithm Implementation**: 
   - Logistic Regression for signal classification
   - Support Vector Machines (SVM) for medical prediction
-- **Model Evaluation**: Training vs test accuracy, generalization assessment, overfitting detection
-- **Python Libraries**: Proficiency in NumPy, Pandas, Scikit-learn, Matplotlib, and Seaborn
+  - XGBoost Regressor for price prediction
+- **Model Evaluation**: Training vs test accuracy, R² score, MAE, generalization assessment, overfitting detection
+- **Python Libraries**: Proficiency in NumPy, Pandas, Scikit-learn, XGBoost, Matplotlib, and Seaborn
 
 ### 🧠 Machine Learning Concepts Mastered
-- **Supervised Learning**: Binary classification techniques
-- **Feature Engineering**: Working with high-dimensional (60 features) and medical data
+- **Supervised Learning**: Binary classification and regression techniques
+- **Feature Engineering**: Working with high-dimensional (60 features), medical, and geographic data
 - **Train-Test Split**: Proper stratified data partitioning for model validation
 - **Model Selection**: Choosing appropriate algorithms for specific problem types
+  - Classification: Logistic Regression, SVM
+  - Regression: XGBoost for continuous predictions
 - **Overfitting & Generalization**: 
   - Rock vs Mine: 7% gap (acceptable for small dataset)
   - Diabetes: 1.4% gap (excellent generalization)
+  - House Price: 11% gap (good performance with complex model)
 - **Standardization**: Critical preprocessing for distance-based algorithms like SVM
 - **Class Imbalance**: Handling imbalanced datasets in medical applications
+- **Regression Metrics**: R² Score (coefficient of determination), Mean Absolute Error
+- **Ensemble Methods**: Gradient boosting with XGBoost for improved predictions
 
 ### 💡 Problem-Solving Approach
 - Breaking down complex problems from data loading to model deployment
@@ -96,9 +127,11 @@ Through these machine learning projects, I have gained hands-on experience with 
 ### 📈 Practical Achievements
 - Successfully classified SONAR signals with **76.19% test accuracy**
 - Predicted diabetes with **77.27% test accuracy** on medical data
-- Worked with diverse datasets: 208 samples (signal processing) to 768 patients (healthcare)
+- Predicted house prices with **82.87% R² score** on regression task
+- Worked with diverse datasets: 208 samples (signal processing) to 20,640 census blocks (housing)
 - Handled feature spaces from 8 to 60 dimensions
 - Demonstrated understanding of model generalization and validation
+- Mastered both classification and regression problems
 
 ## 📈 Future Goals
 - Explore deep learning with TensorFlow/PyTorch
