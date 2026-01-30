@@ -170,6 +170,30 @@ Welcome to my Machine Learning learning journey! This repository contains hands-
 
 ---
 
+### 7. 🚗 [Car Price Prediction](./Car%20Price%20Prediction/)
+
+**Type**: Regression  
+**Algorithm**: Linear Regression & Lasso Regression  
+**Dataset**: Vehicle Dataset from CarDekho (301 samples, 7 features)
+
+**Description**: Predict the selling price of used cars based on factors like age, present price, mileage, and fuel type. The project compares Standard Linear Regression with Lasso Regression to demonstrate the benefits of regularization.
+
+**Model Performance**:
+
+- **Linear Regression**: Test R² Score ~0.84
+- **Lasso Regression**: Test R² Score ~0.87 (Better generalization)
+
+**Key Concepts Learned**:
+
+- **Lasso Regression**: Using L1 regularization to curb overfitting and improve test performance
+- **Categorical Encoding**: Manually encoding ordinal features like fuel type and transmission
+- **Model Comparison**: Evaluating multiple regression models to find the best fit
+- **Feature Selection**: Identifying `Present_Price` as a key driver for selling price
+
+**[View Project](./Car%20Price%20Prediction/) | [Open in Colab](https://colab.research.google.com/drive/1vnv22Lb_Dy3Gn6s42rSR1xKx7klsLsRY?usp=sharing)**
+
+---
+
 ## 🎯 Overall Learning Journey
 
 Through these machine learning projects, I have gained hands-on experience with real-world datasets and practical ML applications:
@@ -187,6 +211,7 @@ Through these machine learning projects, I have gained hands-on experience with 
   - Logistic Regression for signal classification and text classification
   - Support Vector Machines (SVM) for medical prediction
   - Random Forest Classifier for quality assessment
+  - Linear Regression & Lasso Regression for price forecasting
   - XGBoost Regressor for price prediction
 - **Model Evaluation**: Training vs test accuracy, R² score, MAE, generalization assessment, overfitting detection
 - **Python Libraries**: Proficiency in NumPy, Pandas, Scikit-learn, XGBoost, Matplotlib, Seaborn, and NLTK
@@ -199,12 +224,13 @@ Through these machine learning projects, I have gained hands-on experience with 
 - **Train-Test Split**: Proper stratified data partitioning for model validation
 - **Model Selection**: Choosing appropriate algorithms for specific problem types
   - Classification: Logistic Regression (signals & text), SVM, Random Forest
-  - Regression: XGBoost for continuous predictions
+  - Regression: XGBoost, Linear Regression, Lasso Regression
 - **Overfitting & Generalization**:
   - Rock vs Mine: 7% gap (acceptable for small dataset)
   - Diabetes: 1.4% gap (excellent generalization)
   - House Price: 11% gap (good performance with complex model)
   - House Price: 11% gap (good performance with complex model)
+  - Car Price: Lasso improved test score to 0.87 (better than Linear Regression's 0.84)
   - Fake News: 0.73% gap (excellent generalization with text data)
 - **Ensemble Learning**:
   - **Random Forest**: Bagging technique for robust classification
@@ -213,6 +239,7 @@ Through these machine learning projects, I have gained hands-on experience with 
 - **Class Imbalance**: Handling imbalanced datasets in medical applications
 - **Regression Metrics**: R² Score (coefficient of determination), Mean Absolute Error
 - **Ensemble Methods**: Gradient boosting with XGBoost for improved predictions
+- **Regularization**: Application of Lasso (L1) regression to prevent overfitting
 - **Sparse Matrices**: Efficient handling of high-dimensional text features
 
 ### 💡 Problem-Solving Approach
@@ -239,6 +266,7 @@ Through these machine learning projects, I have gained hands-on experience with 
 - Classified fake news with **97.91% test accuracy** using NLP techniques
 - Predicted loan eligibility with **83.33% test accuracy** using SVM
 - Assessed wine quality with **93.44% accuracy** using Random Forest
+- Predicted car prices with **0.87 R² score** using Lasso Regression
 - Worked with diverse datasets: 208 samples (signal processing) to 20,800 articles (text classification)
 - Handled feature spaces from 8 to 60 dimensions, plus high-dimensional text vectors
 - Demonstrated understanding of model generalization and validation
