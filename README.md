@@ -145,6 +145,31 @@ Welcome to my Machine Learning learning journey! This repository contains hands-
 
 ---
 
+### 6. 🍷 [Wine Quality Prediction](./Wine%20Quality%20Prediction/)
+
+**Type**: Binary Classification  
+**Algorithm**: Random Forest Classifier  
+**Dataset**: Red Wine Quality (1599 samples, 11 features)
+
+**Description**: Predict the quality of red wine ("Good" or "Bad") based on physicochemical tests such as acidity, sugar, pH, and alcohol content. The project demonstrates how ensemble learning techniques can capture complex non-linear relationships in chemical data.
+
+**Model Performance**:
+
+- Test Accuracy: **~93.44%**
+- High precision in distinguishing good quality wines from bad ones
+
+**Key Concepts Learned**:
+
+- **Random Forest Classifier**: Understanding ensemble learning and bagging
+- **Label Binarization**: Converting multi-class quality ratings into binary targets (Good vs. Bad)
+- **Correlation Analysis**: Using heatmaps to identify key chemical drivers of quality
+- **Data Visualization**: Exploring distributions of acidity, alcohol, and quality scores
+- **Predictive System**: Building an interactive prediction function for new samples
+
+**[View Project](./Wine%20Quality%20Prediction/) | [Open in Colab](https://colab.research.google.com/drive/1yqgI1tUqgL89I4z_hK5G6C8VjXOX4I-v?usp=sharing)**
+
+---
+
 ## 🎯 Overall Learning Journey
 
 Through these machine learning projects, I have gained hands-on experience with real-world datasets and practical ML applications:
@@ -161,6 +186,7 @@ Through these machine learning projects, I have gained hands-on experience with 
 - **Algorithm Implementation**:
   - Logistic Regression for signal classification and text classification
   - Support Vector Machines (SVM) for medical prediction
+  - Random Forest Classifier for quality assessment
   - XGBoost Regressor for price prediction
 - **Model Evaluation**: Training vs test accuracy, R² score, MAE, generalization assessment, overfitting detection
 - **Python Libraries**: Proficiency in NumPy, Pandas, Scikit-learn, XGBoost, Matplotlib, Seaborn, and NLTK
@@ -172,13 +198,17 @@ Through these machine learning projects, I have gained hands-on experience with 
 - **Text Processing**: TF-IDF vectorization, stemming, and stopword removal for NLP tasks
 - **Train-Test Split**: Proper stratified data partitioning for model validation
 - **Model Selection**: Choosing appropriate algorithms for specific problem types
-  - Classification: Logistic Regression (signals & text), SVM
+  - Classification: Logistic Regression (signals & text), SVM, Random Forest
   - Regression: XGBoost for continuous predictions
 - **Overfitting & Generalization**:
   - Rock vs Mine: 7% gap (acceptable for small dataset)
   - Diabetes: 1.4% gap (excellent generalization)
   - House Price: 11% gap (good performance with complex model)
+  - House Price: 11% gap (good performance with complex model)
   - Fake News: 0.73% gap (excellent generalization with text data)
+- **Ensemble Learning**:
+  - **Random Forest**: Bagging technique for robust classification
+  - **XGBoost**: Gradient boosting for high-performance regression
 - **Standardization**: Critical preprocessing for distance-based algorithms like SVM
 - **Class Imbalance**: Handling imbalanced datasets in medical applications
 - **Regression Metrics**: R² Score (coefficient of determination), Mean Absolute Error
@@ -208,6 +238,7 @@ Through these machine learning projects, I have gained hands-on experience with 
 - Predicted house prices with **82.87% R² score** on regression task
 - Classified fake news with **97.91% test accuracy** using NLP techniques
 - Predicted loan eligibility with **83.33% test accuracy** using SVM
+- Assessed wine quality with **93.44% accuracy** using Random Forest
 - Worked with diverse datasets: 208 samples (signal processing) to 20,800 articles (text classification)
 - Handled feature spaces from 8 to 60 dimensions, plus high-dimensional text vectors
 - Demonstrated understanding of model generalization and validation
