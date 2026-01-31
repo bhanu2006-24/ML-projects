@@ -317,7 +317,29 @@ Welcome to my Machine Learning learning journey! This repository contains hands-
 - **Label Encoding**: Converting complex categories for model input
 - **Model Diagnostics**: Identifying overfitting through performance metrics
 
-**[View Project](./BigMart%20Sales%20Prediction/) | [Open in Colab](https://colab.research.google.com/drive/1L-Nq8c6aT5vdCyrItX4dLml4UC0bAs1m?usp=sharing)**
+---
+
+### 13. 🛍️ [Customer Segmentation](./Customer%20Segmentation/)
+
+**Type**: Clustering (Unsupervised)
+**Algorithm**: K-Means Clustering
+**Dataset**: Mall Customer Segmentation Data (200 records)
+
+**Description**: Grouping mall customers based on their annual income and spending habits. This project uses K-Means clustering to identify target audiences for marketing strategies.
+
+**Key Insights**:
+
+- Identified **5 distinct customer groups** (e.g., High Income-High Spend, Low Income-High Spend).
+- Used the **Elbow Method** to determine optimal cluster count.
+
+**Key Concepts Learned**:
+
+- **Unsupervised Learning**: Finding patterns in unlabeled data
+- **K-Means Algorithm**: Iterative clustering based on centroids
+- **Elbow Method**: Optimizing the number of clusters (k)
+- **Data Visualization**: Plotting clusters for interpretability
+
+**[View Project](./Customer%20Segmentation/) | [Open in Colab](https://colab.research.google.com/drive/1IFjJzlG-SCSz3GHHRBGI7k4cZYkorshJ?usp=sharing)**
 
 ---
 
@@ -399,7 +421,9 @@ Through these machine learning projects, I have gained hands-on experience with 
 - Predicted heart disease with **~82% accuracy** using Logistic Regression
 - Predicted credit card fraud with **~90% accuracy** using Undersampling & Logistic Regression
 - Predicted medical insurance costs with **~75% R² score** using Linear Regression
+- Predicted medical insurance costs with **~75% R² score** using Linear Regression
 - Analyzed Big Mart sales using **XGBoost**, identifying key factors driving sales
+- Segmented customers into **5 distinct groups** using K-Means Clustering
 - Worked with diverse datasets: 208 samples (signal processing) to 284,807 samples (fraud detection)
 - Handled feature spaces from 5 to 60 dimensions, plus high-dimensional text vectors
 - Demonstrated understanding of model generalization and validation
