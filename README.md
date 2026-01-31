@@ -440,4 +440,4 @@ Feel free to explore the projects, provide feedback, or reach out for collaborat
 
 **Note**: Each project folder contains its own detailed README with specific information about the dataset, methodology, and results.
 
-**Last Updated**: December 2025
+**Last Updated**: January 2026
