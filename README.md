@@ -296,6 +296,31 @@ Welcome to my Machine Learning learning journey! This repository contains hands-
 
 ---
 
+### 12. 🛒 [Big Mart Sales Prediction](./BigMart%20Sales%20Prediction/)
+
+**Type**: Regression
+**Algorithm**: XGBoost Regressor
+**Dataset**: Big Mart Sales Dataset (8,523 samples)
+
+**Description**: Predict sales of products at various Big Mart outlets. This project uses the XGBoost algorithm to analyze item and outlet features for accurate sales forecasting.
+
+**Model Performance**:
+
+- **Training R² Score**: **~0.876**
+- **Test R² Score**: **~0.502**
+- **Insight**: High variance indicates overfitting, suggesting need for pruning or regularization.
+
+**Key Concepts Learned**:
+
+- **XGBoost**: Gradient boosting implementation for regression
+- **Data Processing**: Imputation of missing values and categorical encoding
+- **Label Encoding**: Converting complex categories for model input
+- **Model Diagnostics**: Identifying overfitting through performance metrics
+
+**[View Project](./BigMart%20Sales%20Prediction/)**
+
+---
+
 ## 🎯 Overall Learning Journey
 
 Through these machine learning projects, I have gained hands-on experience with real-world datasets and practical ML applications:
@@ -374,6 +399,7 @@ Through these machine learning projects, I have gained hands-on experience with 
 - Predicted heart disease with **~82% accuracy** using Logistic Regression
 - Predicted credit card fraud with **~90% accuracy** using Undersampling & Logistic Regression
 - Predicted medical insurance costs with **~75% R² score** using Linear Regression
+- Analyzed Big Mart sales using **XGBoost**, identifying key factors driving sales
 - Worked with diverse datasets: 208 samples (signal processing) to 284,807 samples (fraud detection)
 - Handled feature spaces from 5 to 60 dimensions, plus high-dimensional text vectors
 - Demonstrated understanding of model generalization and validation
