@@ -271,13 +271,38 @@ Welcome to my Machine Learning learning journey! This repository contains hands-
 
 ---
 
+### 11. 🏥 [Medical Insurance Cost Prediction](./Medical%20Insurance%20Cost%20Prediction/)
+
+**Type**: Regression
+**Algorithm**: Linear Regression
+**Dataset**: Medical Insurance Dataset (1,338 records)
+
+**Description**: Predict individual medical insurance costs based on demographic and lifestyle factors. This project explores how variables like age, smoking status, and BMI influence healthcare expenses.
+
+**Model Performance**:
+
+- **Training R² Score**: **~0.7515**
+- **Test R² Score**: **~0.7447**
+- Strong correlation found between smoking status and higher costs.
+
+**Key Concepts Learned**:
+
+- **Categorical Encoding**: Converting nominal data (sex, region, smoker) into numerical format
+- **Linear Regression**: Modeling continuous variables to predict costs
+- **Feature Correlation**: analyzing relationships between lifestyle choices and expenses
+- **Data Visualization**: Using properties like distribution plots to understand cost skewness
+
+**[View Project](./Medical%20Insurance%20Cost%20Prediction/) | [Open in Colab](https://colab.research.google.com/drive/1uK58D38QdKzVnzv40D_opWd5QwbTkxJ8?usp=sharing)**
+
+---
+
 ## 🎯 Overall Learning Journey
 
 Through these machine learning projects, I have gained hands-on experience with real-world datasets and practical ML applications:
 
 ### 🔧 Technical Skills Developed
 
-- **Data Preprocessing**: Cleaning, normalization with StandardScaler, feature scaling, and text preprocessing
+- **Data Preprocessing**: Cleaning, normalization, feature scaling, categorical encoding, and text preprocessing
 - **Exploratory Data Analysis**: Statistical analysis, distribution visualization, and correlation studies
 - **Natural Language Processing (NLP)**:
   - Text cleaning and normalization
@@ -289,7 +314,7 @@ Through these machine learning projects, I have gained hands-on experience with 
   - Support Vector Machines (SVM) for medical prediction
   - Random Forest Classifier for quality assessment
   - Random Forest Regressor for financial forecasting
-  - Linear Regression & Lasso Regression for price forecasting
+  - Linear Regression & Lasso Regression for price forecasting and cost prediction
   - XGBoost Regressor for price prediction
 - **Model Evaluation**: Training vs test accuracy, R² score, MAE, generalization assessment, overfitting detection
 - **Python Libraries**: Proficiency in NumPy, Pandas, Scikit-learn, XGBoost, Matplotlib, Seaborn, and NLTK
@@ -348,6 +373,7 @@ Through these machine learning projects, I have gained hands-on experience with 
 - Predicted gold prices with **0.99 R² score** using Random Forest
 - Predicted heart disease with **~82% accuracy** using Logistic Regression
 - Predicted credit card fraud with **~90% accuracy** using Undersampling & Logistic Regression
+- Predicted medical insurance costs with **~75% R² score** using Linear Regression
 - Worked with diverse datasets: 208 samples (signal processing) to 284,807 samples (fraud detection)
 - Handled feature spaces from 5 to 60 dimensions, plus high-dimensional text vectors
 - Demonstrated understanding of model generalization and validation
