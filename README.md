@@ -421,7 +421,6 @@ Through these machine learning projects, I have gained hands-on experience with 
 - Predicted heart disease with **~82% accuracy** using Logistic Regression
 - Predicted credit card fraud with **~90% accuracy** using Undersampling & Logistic Regression
 - Predicted medical insurance costs with **~75% R² score** using Linear Regression
-- Predicted medical insurance costs with **~75% R² score** using Linear Regression
 - Analyzed Big Mart sales using **XGBoost**, identifying key factors driving sales
 - Segmented customers into **5 distinct groups** using K-Means Clustering
 - Worked with diverse datasets: 208 samples (signal processing) to 284,807 samples (fraud detection)
