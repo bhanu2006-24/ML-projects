@@ -391,6 +391,29 @@ Welcome to my Machine Learning learning journey! This repository contains hands-
 
 ---
 
+### 16. 🔥 [Calories Burnt Prediction](./Calories%20Burnt%20Prediction/)
+
+**Type**: Regression
+**Algorithm**: XGBoost Regressor
+**Dataset**: Exercise & Calories Dataset (15,000 records)
+
+**Description**: Predicts the number of calories burned during exercise based on physiological data (age, height, weight) and activity metrics (duration, heart rate). Demonstrates the power of gradient boosting for non-linear regression tasks.
+
+**Model Performance**:
+
+- **Mean Absolute Error (MAE)**: **~1.48** (High precision)
+- **Insight**: Activity duration and heart rate are the strongest predictors of calorie expenditure.
+
+**Key Concepts Learned**:
+
+- **Gradient Boosting**: Using XGBoost for structured data regression
+- **Feature Engineering**: Merging multiple datasets to create comprehensive feature vectors
+- **Correlation Analysis**: Quantifying relationships between physiological and activity variables
+
+**[View Project](./Calories%20Burnt%20Prediction/) | [Open in Colab](https://colab.research.google.com/drive/10nJ4V_X6cDqtLKvapAEXOvI4oJ6Hr_Gw?usp=sharing)**
+
+---
+
 ## 🎯 Overall Learning Journey
 
 Through these machine learning projects, I have gained hands-on experience with real-world datasets and practical ML applications:
@@ -473,6 +496,7 @@ Through these machine learning projects, I have gained hands-on experience with 
 - Segmented customers into **5 distinct groups** using K-Means Clustering
 - Built a Parkinson's disease detection model with **~87% test accuracy** using SVM
 - Predicted Titanic survival with **~78% accuracy** after fixing data leakage
+- Predicted calories burnt with **~1.48 MAE** using XGBoost on physiological data
 - Worked with diverse datasets: 208 samples (signal processing) to 284,807 samples (fraud detection)
 - Handled feature spaces from 5 to 60 dimensions, plus high-dimensional text vectors
 - Demonstrated understanding of model generalization and validation
