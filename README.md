@@ -244,6 +244,33 @@ Welcome to my Machine Learning learning journey! This repository contains hands-
 
 ---
 
+---
+
+### 10. 💳 [Credit Card Fraud Detection](./Credit%20Card%20Fraud%20Detection/)
+
+**Type**: Binary Classification
+**Algorithm**: Logistic Regression
+**Dataset**: Credit Card Fraud Dataset (284,807 original samples, balanced via undersampling)
+
+**Description**: Predict whether a credit card transaction is fraudulent or legitimate. This project addresses the challenge of highly imbalanced datasets by using undersampling techniques to create a balanced view for training the model.
+
+**Model Performance**:
+
+- **Training Accuracy**: **~94.41%**
+- **Testing Accuracy**: **~90.36%**
+- Effective identification of fraudulent transactions after balancing the dataset.
+
+**Key Concepts Learned**:
+
+- **Handling Class Imbalance**: Using undersampling to manage a 0.17% fraud rate
+- **Undersampling**: Creating a balanced dataset from a highly skewed one
+- **Logistic Regression**: Applied to binary classification with balanced data
+- **Data Splitting**: Stratified sampling to maintain class proportions
+
+**[View Project](./Credit%20Card%20Fraud%20Detection/) | [Open in Colab](https://colab.research.google.com/drive/1V3PtEejy2SlC80p4HdTLn3sI6YxAL5kL?usp=sharing)**
+
+---
+
 ## 🎯 Overall Learning Journey
 
 Through these machine learning projects, I have gained hands-on experience with real-world datasets and practical ML applications:
