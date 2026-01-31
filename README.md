@@ -194,6 +194,31 @@ Welcome to my Machine Learning learning journey! This repository contains hands-
 
 ---
 
+### 8. 🥇 [Gold Price Prediction](./Gold%20Price%20Prediction/)
+
+**Type**: Regression  
+**Algorithm**: Random Forest Regressor  
+**Dataset**: Gold Price Data (2290 samples, 5 financial indicators)
+
+**Description**: Predict the price of Gold (GLD) based on financial indicators including the S&P 500 index, United States Oil Fund, Silver Price, and EUR/USD exchange rate. The project analyzes correlations between these assets and builds a predictive model to forecast gold prices.
+
+**Model Performance**:
+
+- **Model**: Random Forest Regressor
+- **R-squared Error**: **~0.989**
+- The model explains nearly 99% of the variance in gold prices, demonstrating high accuracy.
+
+**Key Concepts Learned**:
+
+- **Random Forest Regression**: Applying ensemble learning for high-precision regression tasks
+- **Correlation Analysis**: Identifying strong positive/negative correlations between financial assets (e.g., Gold & Silver)
+- **Financial Forecasting**: Using ML to predict market trends based on historical data
+- **Data Visualization**: Analyzing price distributions and feature relationships
+
+**[View Project](./Gold%20Price%20Prediction/) | [Open in Colab](https://colab.research.google.com/drive/1vnv22Lb_Dy3Gn6s42rSR1xKx7klsLsRY?usp=sharing)**
+
+---
+
 ## 🎯 Overall Learning Journey
 
 Through these machine learning projects, I have gained hands-on experience with real-world datasets and practical ML applications:
@@ -211,6 +236,7 @@ Through these machine learning projects, I have gained hands-on experience with 
   - Logistic Regression for signal classification and text classification
   - Support Vector Machines (SVM) for medical prediction
   - Random Forest Classifier for quality assessment
+  - Random Forest Regressor for financial forecasting
   - Linear Regression & Lasso Regression for price forecasting
   - XGBoost Regressor for price prediction
 - **Model Evaluation**: Training vs test accuracy, R² score, MAE, generalization assessment, overfitting detection
@@ -224,7 +250,7 @@ Through these machine learning projects, I have gained hands-on experience with 
 - **Train-Test Split**: Proper stratified data partitioning for model validation
 - **Model Selection**: Choosing appropriate algorithms for specific problem types
   - Classification: Logistic Regression (signals & text), SVM, Random Forest
-  - Regression: XGBoost, Linear Regression, Lasso Regression
+  - Regression: XGBoost, Linear Regression, Lasso Regression, Random Forest
 - **Overfitting & Generalization**:
   - Rock vs Mine: 7% gap (acceptable for small dataset)
   - Diabetes: 1.4% gap (excellent generalization)
@@ -233,7 +259,7 @@ Through these machine learning projects, I have gained hands-on experience with 
   - Car Price: Lasso improved test score to 0.87 (better than Linear Regression's 0.84)
   - Fake News: 0.73% gap (excellent generalization with text data)
 - **Ensemble Learning**:
-  - **Random Forest**: Bagging technique for robust classification
+  - **Random Forest**: Bagging technique for robust classification and regression
   - **XGBoost**: Gradient boosting for high-performance regression
 - **Standardization**: Critical preprocessing for distance-based algorithms like SVM
 - **Class Imbalance**: Handling imbalanced datasets in medical applications
@@ -267,8 +293,9 @@ Through these machine learning projects, I have gained hands-on experience with 
 - Predicted loan eligibility with **83.33% test accuracy** using SVM
 - Assessed wine quality with **93.44% accuracy** using Random Forest
 - Predicted car prices with **0.87 R² score** using Lasso Regression
+- Predicted gold prices with **0.99 R² score** using Random Forest
 - Worked with diverse datasets: 208 samples (signal processing) to 20,800 articles (text classification)
-- Handled feature spaces from 8 to 60 dimensions, plus high-dimensional text vectors
+- Handled feature spaces from 5 to 60 dimensions, plus high-dimensional text vectors
 - Demonstrated understanding of model generalization and validation
 - Mastered classification (binary and text), regression, and NLP problems
 
