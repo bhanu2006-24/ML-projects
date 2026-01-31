@@ -343,6 +343,29 @@ Welcome to my Machine Learning learning journey! This repository contains hands-
 
 ---
 
+### 14. 🎤 [Parkinson's Disease Detection](./Parkinson%20Disease%20Detection/)
+
+**Type**: Classification (Binary)
+**Algorithm**: Support Vector Machine (SVM)
+**Dataset**: Parkinson's Disease Dataset (195 records)
+
+**Description**: Detects Parkinson's disease using biomedical voice measurements. The model analyzes vocal features like jitter, shimmer, and fundamental frequency to classify subjects as healthy or having Parkinson's.
+
+**Model Performance**:
+
+- **Training Accuracy**: **~88.5%**
+- **Test Accuracy**: **~87.2%**
+
+**Key Concepts Learned**:
+
+- **SVM**: Effective classification in high-dimensional spaces
+- **Standardization**: Importance of scaling features for distance-based algorithms
+- **Biomedical Data**: Working with complex vocal feature datasets
+
+**[View Project](./Parkinson%20Disease%20Detection/) | [Open in Colab](https://colab.research.google.com/drive/1HkixxZ1-ArMGomk2bp4uny0xK_Ayf49H?usp=sharing)**
+
+---
+
 ## 🎯 Overall Learning Journey
 
 Through these machine learning projects, I have gained hands-on experience with real-world datasets and practical ML applications:
@@ -423,6 +446,7 @@ Through these machine learning projects, I have gained hands-on experience with 
 - Predicted medical insurance costs with **~75% R² score** using Linear Regression
 - Analyzed Big Mart sales using **XGBoost**, identifying key factors driving sales
 - Segmented customers into **5 distinct groups** using K-Means Clustering
+- Built a Parkinson's disease detection model with **~87% test accuracy** using SVM
 - Worked with diverse datasets: 208 samples (signal processing) to 284,807 samples (fraud detection)
 - Handled feature spaces from 5 to 60 dimensions, plus high-dimensional text vectors
 - Demonstrated understanding of model generalization and validation
