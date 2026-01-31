@@ -219,6 +219,31 @@ Welcome to my Machine Learning learning journey! This repository contains hands-
 
 ---
 
+### 9. ❤️ [Heart Disease Prediction](./Heart%20Disease%20Prediction/)
+
+**Type**: Binary Classification  
+**Algorithm**: Logistic Regression  
+**Dataset**: Heart Disease Dataset (303 samples, 13 features)
+
+**Description**: Predict whether a person has heart disease ("Defective Heart" or "Healthy Heart") based on medical attributes such as age, blood pressure, cholesterol levels, and heart rate. The project demonstrates the application of machine learning for early disease detection.
+
+**Model Performance**:
+
+- **Training Accuracy**: **~85.12%**
+- **Testing Accuracy**: **~81.97%**
+- Good generalization with consistent performance across training and test sets.
+
+**Key Concepts Learned**:
+
+- **Medical Data Analysis**: interpreting physiological features for disease prediction
+- **Logistic Regression**: Applied to binary classification in a healthcare context
+- **Stratified Sampling**: Ensuring balanced class distribution in train/test splits
+- **Predictive System**: Building a function to classify new patient data
+
+**[View Project](./Heart%20Disease%20Prediction/) | [Open in Colab](https://colab.research.google.com/drive/1Pc5BhWTdmWbuYiChNNryV1OXxdp-jez6?usp=sharing)**
+
+---
+
 ## 🎯 Overall Learning Journey
 
 Through these machine learning projects, I have gained hands-on experience with real-world datasets and practical ML applications:
@@ -233,7 +258,7 @@ Through these machine learning projects, I have gained hands-on experience with 
   - Stopword removal and stemming with NLTK
   - Working with sparse matrices
 - **Algorithm Implementation**:
-  - Logistic Regression for signal classification and text classification
+  - Logistic Regression for signal classification, text classification, and disease prediction
   - Support Vector Machines (SVM) for medical prediction
   - Random Forest Classifier for quality assessment
   - Random Forest Regressor for financial forecasting
@@ -249,7 +274,7 @@ Through these machine learning projects, I have gained hands-on experience with 
 - **Text Processing**: TF-IDF vectorization, stemming, and stopword removal for NLP tasks
 - **Train-Test Split**: Proper stratified data partitioning for model validation
 - **Model Selection**: Choosing appropriate algorithms for specific problem types
-  - Classification: Logistic Regression (signals & text), SVM, Random Forest
+  - Classification: Logistic Regression (signals, text, medical), SVM, Random Forest
   - Regression: XGBoost, Linear Regression, Lasso Regression, Random Forest
 - **Overfitting & Generalization**:
   - Rock vs Mine: 7% gap (acceptable for small dataset)
@@ -294,6 +319,7 @@ Through these machine learning projects, I have gained hands-on experience with 
 - Assessed wine quality with **93.44% accuracy** using Random Forest
 - Predicted car prices with **0.87 R² score** using Lasso Regression
 - Predicted gold prices with **0.99 R² score** using Random Forest
+- Predicted heart disease with **~82% accuracy** using Logistic Regression
 - Worked with diverse datasets: 208 samples (signal processing) to 20,800 articles (text classification)
 - Handled feature spaces from 5 to 60 dimensions, plus high-dimensional text vectors
 - Demonstrated understanding of model generalization and validation
