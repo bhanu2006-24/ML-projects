@@ -285,7 +285,7 @@ Through these machine learning projects, I have gained hands-on experience with 
   - Stopword removal and stemming with NLTK
   - Working with sparse matrices
 - **Algorithm Implementation**:
-  - Logistic Regression for signal classification, text classification, and disease prediction
+  - Logistic Regression for signal classification, text classification, disease prediction, and fraud detection
   - Support Vector Machines (SVM) for medical prediction
   - Random Forest Classifier for quality assessment
   - Random Forest Regressor for financial forecasting
@@ -301,7 +301,7 @@ Through these machine learning projects, I have gained hands-on experience with 
 - **Text Processing**: TF-IDF vectorization, stemming, and stopword removal for NLP tasks
 - **Train-Test Split**: Proper stratified data partitioning for model validation
 - **Model Selection**: Choosing appropriate algorithms for specific problem types
-  - Classification: Logistic Regression (signals, text, medical), SVM, Random Forest
+  - Classification: Logistic Regression (signals, text, medical, fraud), SVM, Random Forest
   - Regression: XGBoost, Linear Regression, Lasso Regression, Random Forest
 - **Overfitting & Generalization**:
   - Rock vs Mine: 7% gap (acceptable for small dataset)
@@ -314,7 +314,7 @@ Through these machine learning projects, I have gained hands-on experience with 
   - **Random Forest**: Bagging technique for robust classification and regression
   - **XGBoost**: Gradient boosting for high-performance regression
 - **Standardization**: Critical preprocessing for distance-based algorithms like SVM
-- **Class Imbalance**: Handling imbalanced datasets in medical applications
+- **Class Imbalance**: Handling imbalanced datasets in medical applications and fraud detection (undersampling)
 - **Regression Metrics**: R² Score (coefficient of determination), Mean Absolute Error
 - **Ensemble Methods**: Gradient boosting with XGBoost for improved predictions
 - **Regularization**: Application of Lasso (L1) regression to prevent overfitting
@@ -347,7 +347,8 @@ Through these machine learning projects, I have gained hands-on experience with 
 - Predicted car prices with **0.87 R² score** using Lasso Regression
 - Predicted gold prices with **0.99 R² score** using Random Forest
 - Predicted heart disease with **~82% accuracy** using Logistic Regression
-- Worked with diverse datasets: 208 samples (signal processing) to 20,800 articles (text classification)
+- Predicted credit card fraud with **~90% accuracy** using Undersampling & Logistic Regression
+- Worked with diverse datasets: 208 samples (signal processing) to 284,807 samples (fraud detection)
 - Handled feature spaces from 5 to 60 dimensions, plus high-dimensional text vectors
 - Demonstrated understanding of model generalization and validation
 - Mastered classification (binary and text), regression, and NLP problems
