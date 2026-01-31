@@ -366,6 +366,31 @@ Welcome to my Machine Learning learning journey! This repository contains hands-
 
 ---
 
+---
+
+### 15. 🚢 [Titanic Survival Prediction](./Titanic%20Survival%20Prediction/)
+
+**Type**: Classification (Binary)
+**Algorithm**: Logistic Regression
+**Dataset**: Titanic Dataset (891 records)
+
+**Description**: Predicts passenger survival on the Titanic based on demographics, socioeconomic status, and travel details. Addresses data leakage issues found in initial modeling.
+
+**Model Performance**:
+
+- **Training Accuracy**: **~83.4%**
+- **Test Accuracy**: **~78.2%**
+
+**Key Concepts Learned**:
+
+- **Data Leakage**: Identifying and removing proxy features (`alive`)
+- **Imputation**: Handling missing values in `age` and `embarked`
+- **Label Encoding**: Converting categorical data for logistic regression
+
+**[View Project](./Titanic%20Survival%20Prediction/) | [Open in Colab](https://colab.research.google.com/drive/1jua3O9aRuqWUQv59tfrzwdQ8SGB4jq6K?usp=sharing)**
+
+---
+
 ## 🎯 Overall Learning Journey
 
 Through these machine learning projects, I have gained hands-on experience with real-world datasets and practical ML applications:
@@ -447,6 +472,7 @@ Through these machine learning projects, I have gained hands-on experience with 
 - Analyzed Big Mart sales using **XGBoost**, identifying key factors driving sales
 - Segmented customers into **5 distinct groups** using K-Means Clustering
 - Built a Parkinson's disease detection model with **~87% test accuracy** using SVM
+- Predicted Titanic survival with **~78% accuracy** after fixing data leakage
 - Worked with diverse datasets: 208 samples (signal processing) to 284,807 samples (fraud detection)
 - Handled feature spaces from 5 to 60 dimensions, plus high-dimensional text vectors
 - Demonstrated understanding of model generalization and validation
