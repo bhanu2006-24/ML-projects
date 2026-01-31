@@ -4,7 +4,7 @@ This project focuses on forecasting the sales of various products across differe
 
 ## 🔗 Project Notebook
 
-[View the Notebook](./Big_Mart_Sales_Prediction.ipynb)
+[View the Notebook](./Big_Mart_Sales_Prediction.ipynb) | [Open in Colab](https://colab.research.google.com/drive/1L-Nq8c6aT5vdCyrItX4dLml4UC0bAs1m?usp=sharing)
 
 ## 📊 Dataset
 

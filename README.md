@@ -317,7 +317,7 @@ Welcome to my Machine Learning learning journey! This repository contains hands-
 - **Label Encoding**: Converting complex categories for model input
 - **Model Diagnostics**: Identifying overfitting through performance metrics
 
-**[View Project](./BigMart%20Sales%20Prediction/)**
+**[View Project](./BigMart%20Sales%20Prediction/) | [Open in Colab](https://colab.research.google.com/drive/1L-Nq8c6aT5vdCyrItX4dLml4UC0bAs1m?usp=sharing)**
 
 ---
 
