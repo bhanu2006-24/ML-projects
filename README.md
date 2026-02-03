@@ -464,6 +464,29 @@ Welcome to my Machine Learning learning journey! This repository contains hands-
 
 ---
 
+### 19. 🎗️ [Breast Cancer Classification](./Breast%20Cancer%20Classification/)
+
+**Type**: Binary Classification
+**Algorithm**: Logistic Regression
+**Dataset**: Breast Cancer Wisconsin (Diagnostic) Dataset (569 samples)
+
+**Description**: A Machine Learning model to classify breast masses as malignant or benign based on digitized image features. This project demonstrates the application of ML in medical diagnostics for early disease detection.
+
+**Model Performance**:
+
+- **Training Accuracy**: **~94.95%**
+- **Testing Accuracy**: **~92.98%**
+
+**Key Concepts Learned**:
+
+- **Medical Data Analysis**: Working with specialized features (radius, texture, smoothness, etc.)
+- **Class Imbalance**: Understanding benign vs malignant distribution
+- **Logistic Regression**: Applying linear classification to medical data
+
+**[View Project](./Breast%20Cancer%20Classification/) | [Open in Colab](https://colab.research.google.com/drive/12BcpWDOkRRb1L9Mai43pervN641kqzDW?usp=sharing)**
+
+---
+
 ## 🎯 Overall Learning Journey
 
 Through these machine learning projects, I have gained hands-on experience with real-world datasets and practical ML applications:
@@ -491,7 +514,7 @@ Through these machine learning projects, I have gained hands-on experience with 
 
 - **Supervised Learning**: Binary classification, text classification, and regression techniques
 - **Feature Engineering**: Working with high-dimensional (60 features), medical, geographic, and textual data
-- **Text Processing**: TF-IDF vectorization, stemming, and stopword removal for NLP tasks
+- **Sklearn Datasets**: Efficiently utilizing built-in datasets for rapid prototyping
 - **Recommender Systems**:
   - Content-Based Filtering using item attributes
   - Cosine Similarity for measuring item-item closeness
@@ -506,6 +529,7 @@ Through these machine learning projects, I have gained hands-on experience with 
   - House Price: 11% gap (good performance with complex model)
   - Car Price: Lasso improved test score to 0.87 (better than Linear Regression's 0.84)
   - Fake News: 0.73% gap (excellent generalization with text data)
+  - Breast Cancer: ~2% gap (stable model with high accuracy)
 - **Ensemble Learning**:
   - **Random Forest**: Bagging technique for robust classification and regression
   - **XGBoost**: Gradient boosting for high-performance regression
@@ -520,7 +544,7 @@ Through these machine learning projects, I have gained hands-on experience with 
 
 - Breaking down complex problems from data loading to model deployment
 - Choosing appropriate algorithms based on data characteristics:
-  - Logistic Regression for linearly separable frequency data
+  - Logistic Regression for linearly separable frequency data and medical diagnostics
   - SVM for complex medical decision boundaries
   - Cosine Similarity for high-dimensional feature matching
 - Iterative improvement through experimentation and metric analysis
@@ -553,6 +577,7 @@ Through these machine learning projects, I have gained hands-on experience with 
 - Predicted calories burnt with **~1.48 MAE** using XGBoost on physiological data
 - Classified SMS spam with **~96.68% accuracy** using Logistic Regression & TF-IDF
 - Built a Movie Recommendation System using **Content-Based Filtering** and **TF-IDF**
+- Classified Breast Cancer tumors with **~92.98% test accuracy** using Logistic Regression
 - Worked with diverse datasets: 208 samples (signal processing) to 284,807 samples (fraud detection)
 - Handled feature spaces from 5 to 60 dimensions, plus high-dimensional text vectors
 - Demonstrated understanding of model generalization and validation
