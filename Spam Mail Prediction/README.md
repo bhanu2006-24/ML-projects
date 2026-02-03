@@ -42,6 +42,7 @@ The dataset consists of 5,572 SMS messages tagged as either `ham` (legitimate) o
 ### 💻 Running the Project
 
 1. **Open on Google Colab**:
+   [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1MWB9H0gGTRg4pbUKn13acplT002Z58p3?usp=sharing)
    The notebook is designed to run in Google Colab, where it can automatically download the dataset.
 2. **Run Locally**:
 

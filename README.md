@@ -435,7 +435,7 @@ Welcome to my Machine Learning learning journey! This repository contains hands-
 - **Logistic Regression**: Robust performance on high-dimensional text data
 - **Building a System**: creating a function to predict for any new SMS input
 
-**[View Project](./Spam%20Mail%20Prediction/) | [Open in Colab](https://colab.research.google.com/drive/1uzbhec5TW_OjFr4UUZkoMm0rpyvYdhZw?usp=sharing)**
+**[View Project](./Spam%20Mail%20Prediction/) | [Open in Colab](https://colab.research.google.com/drive/1MWB9H0gGTRg4pbUKn13acplT002Z58p3?usp=sharing)**
 
 ---
 
