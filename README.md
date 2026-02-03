@@ -439,6 +439,31 @@ Welcome to my Machine Learning learning journey! This repository contains hands-
 
 ---
 
+### 18. 🎬 [Movie Recommendation System](./Movie%20Recommendation%20System/)
+
+**Type**: Content-Based Recommendation System
+**Algorithm**: Cosine Similarity with TF-IDF
+**Dataset**: TMDB 5000 Movie Dataset
+
+**Description**: A specialized recommendation engine that suggests movies based on content similarity. By analyzing features like genres, cast, and directors, the system identifies movies that are semantically similar to a user's favorite film, providing personalized suggestions without relying on user interaction history.
+
+**Model Highlights**:
+
+- **Content-Based Filtering**: Leverages movie attributes rather than user ratings
+- **Vector Space Model**: Representing movies as vectors in a high-dimensional space
+- **Semantic Matching**: Finding closest matches using cosine similarity
+
+**Key Concepts Learned**:
+
+- **Recommender Systems**: Implementing content-based filtering logic
+- **Text Feature Engineering**: Combining multiple text fields into a single "content" feature
+- **Similarity Metrics**: Practical application of Cosine Similarity for item comparison
+- **Fuzzy Matching**: Handling user typos with `difflib`
+
+**[View Project](./Movie%20Recommendation%20System/) | [Open in Colab](https://colab.research.google.com/drive/130K2T1qDxHJVRHBo60GB-mOyyPs0awLB?usp=sharing)**
+
+---
+
 ## 🎯 Overall Learning Journey
 
 Through these machine learning projects, I have gained hands-on experience with real-world datasets and practical ML applications:
@@ -467,6 +492,9 @@ Through these machine learning projects, I have gained hands-on experience with 
 - **Supervised Learning**: Binary classification, text classification, and regression techniques
 - **Feature Engineering**: Working with high-dimensional (60 features), medical, geographic, and textual data
 - **Text Processing**: TF-IDF vectorization, stemming, and stopword removal for NLP tasks
+- **Recommender Systems**:
+  - Content-Based Filtering using item attributes
+  - Cosine Similarity for measuring item-item closeness
 - **Train-Test Split**: Proper stratified data partitioning for model validation
 - **Model Selection**: Choosing appropriate algorithms for specific problem types
   - Classification: Logistic Regression (signals, text, medical, fraud), SVM, Random Forest
@@ -494,6 +522,7 @@ Through these machine learning projects, I have gained hands-on experience with 
 - Choosing appropriate algorithms based on data characteristics:
   - Logistic Regression for linearly separable frequency data
   - SVM for complex medical decision boundaries
+  - Cosine Similarity for high-dimensional feature matching
 - Iterative improvement through experimentation and metric analysis
 - Comprehensive documentation and reproducibility practices
 
@@ -523,6 +552,7 @@ Through these machine learning projects, I have gained hands-on experience with 
 - Predicted Titanic survival with **~78% accuracy** after fixing data leakage
 - Predicted calories burnt with **~1.48 MAE** using XGBoost on physiological data
 - Classified SMS spam with **~96.68% accuracy** using Logistic Regression & TF-IDF
+- Built a Movie Recommendation System using **Content-Based Filtering** and **TF-IDF**
 - Worked with diverse datasets: 208 samples (signal processing) to 284,807 samples (fraud detection)
 - Handled feature spaces from 5 to 60 dimensions, plus high-dimensional text vectors
 - Demonstrated understanding of model generalization and validation
