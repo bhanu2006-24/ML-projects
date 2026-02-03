@@ -414,6 +414,31 @@ Welcome to my Machine Learning learning journey! This repository contains hands-
 
 ---
 
+### 17. 📧 [Spam Mail Prediction](./Spam%20Mail%20Prediction/)
+
+**Type**: Binary Classification
+**Algorithm**: Logistic Regression
+**Dataset**: SMS Spam Collection (5572 messages)
+
+**Description**: Automate the detection of spam SMS messages using Natural Language Processing (NLP). The model classifies messages as 'spam' or 'ham' (legitimate) by analyzing text content, enhancing user security and experience.
+
+**Model Performance**:
+
+- **Training Accuracy**: **~96.77%**
+- **Testing Accuracy**: **~96.68%**
+- **Insight**: Excellent generalization capability with minimal overfitting.
+
+**Key Concepts Learned**:
+
+- **NLP Pipeline**: Text preprocessing, tokenization, and vectorization
+- **TF-IDF**: Transforming text data into meaningful numerical features
+- **Logistic Regression**: Robust performance on high-dimensional text data
+- **Building a System**: creating a function to predict for any new SMS input
+
+**[View Project](./Spam%20Mail%20Prediction/) | [Open in Colab](https://colab.research.google.com/drive/1uzbhec5TW_OjFr4UUZkoMm0rpyvYdhZw?usp=sharing)**
+
+---
+
 ## 🎯 Overall Learning Journey
 
 Through these machine learning projects, I have gained hands-on experience with real-world datasets and practical ML applications:
@@ -497,6 +522,7 @@ Through these machine learning projects, I have gained hands-on experience with 
 - Built a Parkinson's disease detection model with **~87% test accuracy** using SVM
 - Predicted Titanic survival with **~78% accuracy** after fixing data leakage
 - Predicted calories burnt with **~1.48 MAE** using XGBoost on physiological data
+- Classified SMS spam with **~96.68% accuracy** using Logistic Regression & TF-IDF
 - Worked with diverse datasets: 208 samples (signal processing) to 284,807 samples (fraud detection)
 - Handled feature spaces from 5 to 60 dimensions, plus high-dimensional text vectors
 - Demonstrated understanding of model generalization and validation
